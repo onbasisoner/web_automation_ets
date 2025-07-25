@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.priceAssertion" />
+        </classes>
+    </test>
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge" />
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.priceAssertion" />
+        </classes>
+    </test>
+</suite>

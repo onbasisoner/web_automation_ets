@@ -1,0 +1,102 @@
+[
+  {
+    "key": "whereFrom",
+    "type": "id",
+    "value": "from_text"
+  },
+  {
+    "key": "whereTo",
+    "type": "id",
+    "value": "to_text"
+  },
+  {
+    "key": "searchListFrom",
+    "type": "className",
+    "value": "flight-autocomplete-list-from_text"
+  },
+  {
+    "key": "searchListTo",
+    "type": "className",
+    "value": "flight-autocomplete-list-to_text"
+  },
+  {
+    "key": "antaAirport",
+    "type": "xpath",
+    "value": "//li[contains(@data-value, 'Antalya')]"
+  },
+  {
+    "key": "esbAirport",
+    "type": "xpath",
+    "value": "//li[contains(@data-value, 'Ankara')]"
+  },
+  {
+    "key": "datePickerButton",
+    "type": "className",
+    "value": "datepicker-box-blank"
+  },
+  {
+    "key": "calendar",
+    "type": "id",
+    "value": "ui-datepicker-div"
+  },
+  {
+    "key": "datePickTomorrow",
+    "type": "className",
+    "value": "ui-datepicker-current-day"
+  },
+  {
+    "key": "selectDate",
+    "type": "xpath",
+    "value": "//td[@data-month='%s' and @data-year='%s']/a[text()='%s']"
+  },
+  {
+    "key": "passengerChoiceList",
+    "type": "className",
+    "value": "passenger-search-list"
+  },
+  {
+    "key": "studentCheckbox",
+    "type": "xpath",
+    "value": "//input[@name='STUDENT']"
+  },
+  {
+    "key": "adultCheckbox",
+    "type": "xpath",
+    "value": "//input[@name='ADULT']"
+  },
+  {
+    "key": "studentIncrease",
+    "type": "xpath",
+    "value": "(//div[@class='input-group-append'])[4]"
+  },
+  {
+    "key": "adultDecrease",
+    "type": "xpath",
+    "value": "(//div[@class='input-group-prepend'])[1]"
+  },
+  {
+    "key": "searchButton",
+    "type": "id",
+    "value": "searchFormSubmit"
+  },
+  {
+    "key": "priceLabel",
+    "type": "css",
+    "value": ".currencyChangeArea.price-big"
+  },
+  {
+    "key": "chooseFirstFlight",
+    "type": "xpath",
+    "value": "(//button[@class='btn-select-flight web-button-select btn-flight-brand-detail'])[1]"
+  },
+  {
+    "key": "basicSelectionButton",
+    "type": "xpath",
+    "value": "(//div[contains(@class,'domesticBrandItemButton')][1]//button)[1]"
+  },
+  {
+    "key": "totalPriceLabel",
+    "type": "css",
+    "value": ".currencyChangeArea.totalPriceDiv"
+  }
+]
